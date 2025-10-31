@@ -19,6 +19,8 @@ import javafx.scene.layout.TilePane;
 /**
  * Vista compuesta del restaurante (Composite principal).
  */
+
+//Vista del restaurante, se busco optimizar
 public class RestaurantView extends ViewComponent {
 
     private final TilePane grid = new TilePane();

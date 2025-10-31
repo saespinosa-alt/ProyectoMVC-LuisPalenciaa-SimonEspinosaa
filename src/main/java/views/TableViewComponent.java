@@ -19,6 +19,7 @@ import models.Table;
 /**
  * Representa visualmente una mesa en la vista.
  * Ahora la vista acepta un ViewCommand que se ejecuta cuando se presiona el botón.
+ * Y hace que la vista del restaurante no quede muy cargada al dividir funciones
  */
 public class TableViewComponent extends ViewComponent {
     private final Table table;
