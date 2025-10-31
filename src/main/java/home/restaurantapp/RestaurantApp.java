@@ -33,6 +33,7 @@ public class RestaurantApp extends Application {
 
         // Delegar al controlador la tarea de construir y mostrar la interfaz
         controller.showMainView();
+        //Separa la logica visual del main hacia controladores y vistas. Es decir, la tarea del main solo será iniciar el programa.
     }
 
     public static void main(String[] args) {
