@@ -45,6 +45,7 @@ public class TableViewComponent extends ViewComponent {
         render();
 
         // por defecto: no hace nada hasta que se asigne un command
+        //Todos los botones utilizados en la vista requiere un comando provocado por el controlador llamando el setter.
         button.setOnAction(e -> {
             if (command != null) command.execute();
         });

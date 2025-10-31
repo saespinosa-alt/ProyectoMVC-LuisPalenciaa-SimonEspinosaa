@@ -85,7 +85,7 @@ if (tableForSelection == null) {
         new Label("Buscar:"), searchField
     );
 } else {
-    // 🔹 Si hay mesa seleccionada, solo mostrar eliminar + buscador
+    // Si hay mesa seleccionada, solo mostrar eliminar + buscador
     top.getChildren().addAll(
         new Label("Buscar:"), searchField
     );
