@@ -15,7 +15,7 @@ import models.Table;
 import views.OrderDialog;
 
 /**
- * Controller que se encarga de todo lo relativo a pedidos (mostrar diálogo, lógica local).
+ * Controller que se encarga de todo lo relativo a pedidos, abre dialogos.
  */
 public class OrderController extends ControllerComponent {
     private final OrderService service;
