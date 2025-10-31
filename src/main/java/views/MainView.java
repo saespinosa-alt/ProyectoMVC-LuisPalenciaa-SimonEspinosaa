@@ -50,7 +50,7 @@ public class MainView {
         root.setTop(topBar);
         root.setCenter(restaurantView);
     }
-
+//Utiliza un css para darle diseño y/o estilo al programa
     public Scene buildScene() {
         Scene scene = new Scene(root, 1300, 1000);
         scene.getStylesheets().add("styles/michelin.css");
