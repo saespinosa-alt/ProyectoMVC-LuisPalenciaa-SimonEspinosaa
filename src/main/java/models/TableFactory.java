@@ -10,7 +10,7 @@ package models;
  */
 
 /**
- * Fábrica abstracta para la creación de mesas.
+ * Fábrica abstracta para la creación de mesas, entra utilizando Factory Method.
  */
 public abstract class TableFactory {
     public abstract Table createTable(int number);

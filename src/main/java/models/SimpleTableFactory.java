@@ -10,7 +10,7 @@ package models;
  */
 
 /**
- * Implementa el Factory Method para crear mesas simples.
+ * Implementa el Factory Method para crear mesas.
  */
 public class SimpleTableFactory extends TableFactory {
 
