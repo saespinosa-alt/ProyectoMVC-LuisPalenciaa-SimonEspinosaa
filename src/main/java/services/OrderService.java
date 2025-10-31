@@ -17,6 +17,7 @@ import models.Table;
 /**
  * Servicio que gestiona pedidos de mesas.
  */
+//Maneja y guarda las ordenes pedidas en cada mesa. 
 public class OrderService {
    private final Map<Integer, Order> orders = new HashMap<>();
 
