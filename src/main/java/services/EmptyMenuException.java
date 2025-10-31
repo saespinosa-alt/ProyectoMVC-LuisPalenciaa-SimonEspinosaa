@@ -8,6 +8,8 @@ package services;
  *
  * @author simon
  */
+
+//Excepciones a un menu vacio 
 public class EmptyMenuException extends Exception {
     public EmptyMenuException(String message) {
         super(message);
