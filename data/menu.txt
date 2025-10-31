@@ -1,0 +1,3 @@
+lomo asado|12000.0||
+chuleta|20000.0||
+muslo de paloma|3000.0||

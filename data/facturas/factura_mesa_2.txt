@@ -1,0 +1,11 @@
+Restaurante - Factura (Provisional)
+------------------------------------
+Mesa: 2
+Fecha: 2025-10-31 01:50:23
+
+Productos:
+- lomo asado -> $12000,00
+------------------------------------
+Total: $12000,00
+
+Nota: Esta es una factura provisional. Pulse 'Pagar factura' para generar comprobante final.

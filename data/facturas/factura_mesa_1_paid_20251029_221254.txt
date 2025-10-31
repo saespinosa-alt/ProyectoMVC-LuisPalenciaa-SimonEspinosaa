@@ -1,0 +1,12 @@
+Restaurante - Comprobante de Pago
+------------------------------------
+Mesa: 1
+Fecha: 2025-10-29 22:12:54
+
+Productos:
+- lomo asado -> $12000,00
+- chuleta -> $20000,00
+------------------------------------
+TOTAL PAGADO: $32000,00
+
+Gracias por su preferencia.

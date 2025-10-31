@@ -1,0 +1,11 @@
+Restaurante - Comprobante de Pago
+------------------------------------
+Mesa: 4
+Fecha: 2025-10-29 23:05:07
+
+Productos:
+- chuleta -> $20000,00
+------------------------------------
+TOTAL PAGADO: $20000,00
+
+Gracias por su preferencia.
