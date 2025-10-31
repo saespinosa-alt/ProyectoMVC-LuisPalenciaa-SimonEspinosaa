@@ -18,6 +18,8 @@ import models.Menu;
 /**
  * Servicio que carga/guarda el menu en data/menu.txt
  */
+
+//Menu Service clase que entra en services y no en models para cumplir MVC
 public class MenuService {
     private static final String MENU_FILE = "menu.txt";
 
