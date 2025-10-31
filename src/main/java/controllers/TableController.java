@@ -10,7 +10,7 @@ package controllers;
  */
 import java.util.function.Consumer;
 
-import models.OrderService;
+import services.OrderService;
 import models.SimpleTableFactory;
 import models.Table;
 import views.RestaurantView;
@@ -25,6 +25,7 @@ public class TableController extends ControllerComponent {
     private final OrderService service;
     private final SimpleTableFactory factory;
     private Consumer<Table> onTableSelected; // callback para decir "abrir pedido/menu" al root
+    private Table selectedTable;
 
     public TableController(RestaurantView view, OrderService service, SimpleTableFactory factory) {
         this.view = view;
@@ -35,6 +36,9 @@ public class TableController extends ControllerComponent {
     public void setOnTableSelected(Consumer<Table> callback) {
         this.onTableSelected = callback;
     }
+public Table getSelectedTable() {
+    return selectedTable;
+}
 
     public void initTables(int count) {
         view.clear();
@@ -50,6 +54,7 @@ public class TableController extends ControllerComponent {
             view.addComponent(comp);
         }
         view.render();
+        
     }
 
     @Override

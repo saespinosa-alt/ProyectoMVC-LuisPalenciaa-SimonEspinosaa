@@ -10,7 +10,7 @@ package controllers;
  */
 import javafx.stage.Stage;
 import models.Order;
-import models.OrderService;
+import services.OrderService;
 import models.Table;
 import views.OrderDialog;
 

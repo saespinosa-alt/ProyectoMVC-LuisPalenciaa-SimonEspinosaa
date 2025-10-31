@@ -10,7 +10,7 @@ package controllers;
  */
 
 import javafx.stage.Stage;
-import models.OrderService;
+import services.OrderService;
 import models.SimpleTableFactory;
 import services.InvoiceService;
 import services.MenuService;

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package models;
+package services;
 
 /**
  *
@@ -11,6 +11,8 @@ package models;
 
 import java.util.HashMap;
 import java.util.Map;
+import models.Order;
+import models.Table;
 
 /**
  * Servicio que gestiona pedidos de mesas.
